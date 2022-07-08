@@ -22,9 +22,9 @@ jobs:
         uses: dabreadman/sync-upstream-repo@v1.0.0.b
         with:
           # URL of gitHub public upstream repo
-          upstream_repo: "https://github.com/BCNGEEKS/Geekateca.git"
+          upstream_repo: "https://github.com/xdjavit0/Geekateca.git"
           # Branch to merge from upstream (defaults to downstream branch)
-          upstream_branch: extract_branch
+          upstream_branch: main
           # Branch to merge into downstream
           downstream_branch: extract_branch
           # GitHub Bot token
