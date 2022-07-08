@@ -24,9 +24,9 @@ jobs:
           # URL of gitHub public upstream repo
           upstream_repo: "https://github.com/BCNGEEKS/Geekateca.git"
           # Branch to merge from upstream (defaults to downstream branch)
-          upstream_branch: main
+          upstream_branch: extract_branch
           # Branch to merge into downstream
-          downstream_branch: main
+          downstream_branch: extract_branch
           # GitHub Bot token
           token: ${{ secrets.GITHUB_TOKEN }}
   
